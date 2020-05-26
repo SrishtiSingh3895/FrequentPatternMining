@@ -46,6 +46,10 @@ Number of rows: 32560
 
 ## Data Pre-Processing:
 
+Data Head:
+
+<img src="images/1.png">
+
 The data was pre-processed to be used for frequent pattern mining. 
 As can be seen, data contains a few irrelevant attributes like fnlwgt and Edunum. These attributes were dropped out from the data set. Number of attributes after dropping irrelevant attributes = 13. 
 It also has missing values represented by question mark. Thus, rows containing missing values were dropped out. Number of rows after removing missing values = 30161. 
@@ -69,7 +73,11 @@ Hours per Week:
 5 – 20 -> Medium
 20 – 60 -> Reasonable
 60 – above -> High 
- 
+
+Data head after pre-processing:
+
+<img src="images/2.png">
+
 ## Apriori Frequent Pattern Mining Overview:
 
 Apriori algorithm is based on the usage of prior knowledge of frequent item sets to generate frequent patterns in a data set. It mainly consists of two steps: joining and pruning.
